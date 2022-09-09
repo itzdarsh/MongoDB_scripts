@@ -3,7 +3,7 @@ scripts to ease the work with MongoDB
 
 Scripts are written in javascript which MongoDB engine handles efficiently. In order to execute the same simply run:
 ```
-mongo <Connection URI, authentication details> --quiet <script-file-name.js> > script_output.js
+mongo <Connection URI, authentication details> --quiet script-file-name.js > script_output.js
 ```
 
 Output will be saved in the `script_output.js` file which can be inspected later.
